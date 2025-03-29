@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+.docusaurus/
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+# Not using the blog right now
+blog/
