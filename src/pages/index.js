@@ -16,6 +16,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">(we're busy coding, details to follow)</p>
       </div>
     </header>
   );
@@ -25,8 +26,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="UnifyEM Unified Endpoint Management UEM MDM">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

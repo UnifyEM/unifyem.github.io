@@ -5,28 +5,28 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Secure',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/checkmark.svg').default,
     description: (
       <>
-        UnifyEM was designed from the ground up with security in mind (as well as your next SOC 2 audit)..
+        UnifyEM was designed from the ground up with security in mind (as well as your next SOC 2 audit).
       </>
     ),
   },
   {
     title: 'Open',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/open.svg').default,
     description: (
       <>
-UnifyEM is fully open source with an API-first design for seamless integration and customization.
+        UnifyEM is fully open source with an API-first design for seamless integration and customization.
       </>
     ),
   },
   {
     title: 'Powered by Go',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/go.svg').default,
     description: (
       <>
-UnifyEM is written in Go to provide fast execution and streamline cross-platform compilation. 
+        UnifyEM is written in Go to provide fast execution and streamline cross-platform compilation. 
       </>
     ),
   },
