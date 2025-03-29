@@ -24,7 +24,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'UnifyEM', // Usually your GitHub org/user name.
   projectName: 'unifyem.github.io', // Usually your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
